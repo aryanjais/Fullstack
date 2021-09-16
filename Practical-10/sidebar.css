@@ -4,10 +4,14 @@
   box-sizing: border-box;
   font-family:cursive;
 }
+body{
+  background-color:#3d3d3d;
+
+}
 #header {
   width: 100%;
   height: 70px;
-  background-color: #2f3640;
+  background-color: #4d4c4c;
   z-index: 1;
 }
 #header {
@@ -19,7 +23,7 @@
 }
 #sidebar {
   width: 20%;
-  background-color: #2f3640;
+  background-color: #4d4c4c;
   height: 100%;
   position: fixed;
   top: 70px;
@@ -31,7 +35,12 @@
   list-style: none;
 }
 
-#sidebar li {
+#sidebar li:hover {
+  /* border-bottom: 2px solid whitesmoke; */
+  opacity: 0.7;
+  background-color: #3d3d3d;
+  color: white;
+  border-radius: 20px;
 }
 #sidebar a {
   text-decoration: none;
@@ -57,7 +66,7 @@
   color: white;
   top: 20px;
   left: 20px;
-  transition: .6s;
+  z-index: 2;
 }
 #hide-btn {
   visibility: hidden;
@@ -80,10 +89,14 @@
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 .social i {
-  padding: 10px 0;
+  padding: 10px;
   font-size: 30px;
   color: white;
   float: left;
+}
+.social i:hover{
+  background-color: #3d3d3d;
+  opacity: 0.7;
 }
 .bodycontent {
   text-align: justify;
@@ -94,6 +107,8 @@
   top: 70px;
   font-size: 20px;
   transition: 0.6s;
+  z-index: -1;
+  color: white;
 }
 #chk:checked ~ .bodycontent {
   width: 80%;
@@ -124,11 +139,14 @@
 }
 @media (max-width: 900px) {
   #sidebar {
-    width: 30%;
+    width: 35%;
     transition: 0.6s;
   }
+  .social i {
+    padding: 5px;
+  }
   #chk:checked~.bodycontent{
-    width: 70%;
+    width: 65%;
     padding: 5px;
   }
 }
