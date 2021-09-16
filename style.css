@@ -16,7 +16,11 @@
     color: grey;
     text-align: center;
   }
-
+  .image {
+    width: 800px;
+    height: 380px;
+    margin: 5px auto 10px;
+  }
   table {
     text-align: left;
     line-height: 20px;
