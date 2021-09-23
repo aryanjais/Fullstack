@@ -153,6 +153,13 @@ border-top: 1px solid rgb(230, 224, 224);
     color: rgb(145, 145, 145);
     text-decoration: none;
 }
+.copyright p:hover{
+    border-bottom: 2px solid goldenrod;
+    transition: 500ms;
+}
+.copyright a:hover{
+    color: goldenrod;
+}
 .freearea{
     height: 70px;
     background-color: white;
