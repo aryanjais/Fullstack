@@ -7,7 +7,7 @@
 .content{
     font-size: 30px;
     color: #424242;
-    height: 50vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +141,7 @@ border-top: 1px solid rgb(230, 224, 224);
     background-color: #0077b5;
 }
 .copyright{
-    height: 50px;
+    height: 60px;
     background-color: black;
     color: rgb(145, 145, 145);
     display: flex;
