@@ -4,18 +4,24 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-image: url(../Assets/Fullstack.png);
+    background-size: cover;
+    height: 165vh;
+}
 .tablecontainer{
     /* border: 2px solid gray; */
     width: fit-content;
     margin:auto;
     position: relative;
-    top:250px
-
+    top:250px;
+    bottom:250px;
 }
 table{
     border: 2px solid rgb(27, 81, 131);
     border-radius: 10px;
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
     /* margin: auto; */
     border-spacing: 0;
     /* padding: 0px; */
@@ -23,7 +29,7 @@ table{
 }
 .Heading{
     text-align: center;
-    background-color: rgb(27, 81, 131);
+    background-color: #4d00e6;
     line-height: 30px;
     color: white;
 }
@@ -38,11 +44,7 @@ td {
     padding: 10px 10px;
     /* padding: auto; */
     text-align: center;
-    transition: 0.5s;
     word-wrap:break-word;
-}
-td:nth-child(3){
-    /* padding: 0 50px; */
 }
 .PracticalTopic{
     text-align: left;
@@ -53,10 +55,15 @@ a{
     color: black;
 }
 tr:hover{
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: rgba(65, 62, 202, 0.8);
+    color: white;
+}
+thead tr:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
 }
 a:hover{
-    color:rgb(255, 22, 61);
+    color:rgb(0, 255, 0);
 }
 @media (min-width:950px){
     th:nth-child(3),th:nth-child(4),th:nth-child(5){
