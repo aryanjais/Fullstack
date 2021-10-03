@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tablecontainer{
+    /* border: 2px solid gray; */
+    width: fit-content;
+    margin:auto;
+    position: relative;
+    top:250px
+
+}
+table{
+    border: 2px solid rgb(27, 81, 131);
+    border-radius: 10px;
+    overflow: hidden;
+    /* margin: auto; */
+    border-spacing: 0;
+    /* padding: 0px; */
+    font-size: 17px;
+}
+.Heading{
+    text-align: center;
+    background-color: rgb(27, 81, 131);
+    line-height: 30px;
+    color: white;
+}
+th{
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+td {
+    border-bottom: 1px solid #ddd;
+    line-height: 25px;
+    padding: 10px 10px;
+    /* padding: auto; */
+    text-align: center;
+    transition: 0.5s;
+    word-wrap:break-word;
+}
+td:nth-child(3){
+    /* padding: 0 50px; */
+}
+.PracticalTopic{
+    text-align: left;
+    width: 500px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+tr:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+a:hover{
+    color:rgb(255, 22, 61);
+}
+@media (min-width:950px){
+    th:nth-child(3),th:nth-child(4),th:nth-child(5){
+        /* background-color: red; */
+        padding:0 50px;
+        transition: 0.5s;
+    }
+}
