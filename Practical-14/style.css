@@ -33,8 +33,6 @@
     background-color: rgb(68, 68, 68);
     color: wheat;
     border-radius: 8px;
-    /* border: 2px solid rgba(0, 0, 0, 0.295); */
-    box-shadow: 2px 2px 1px rgb(0, 0, 0);
     cursor:pointer;
 }
 .count{
@@ -42,4 +40,5 @@
     background-color: gray;
     color: rgb(31, 31, 31);
     cursor:inherit;
+    border: 2px solid rgba(0, 0, 0, 0.295);
 }
