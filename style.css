@@ -19,19 +19,7 @@
     padding: 5px;
     text-align: justify;
     line-height: 24px;
-    position: relative;
-    left: 10%;
-  }
-  caption {
-    caption-side: bottom;
-    margin-top: 10px;
-    color: grey;
-    text-align: center;
-  }
-  .image {
-    width: 500px;
-    height: 380px;
-    margin: 5px auto 10px;
+    margin: auto;
   }
   table {
     text-align: left;
