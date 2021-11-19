@@ -14,7 +14,7 @@
         <form action="" onsubmit="validate()">
             <div class="detailcontainer">
                 <label for="username">Username</label>
-                <input type="text" id="username" placeholder="username" onkeypress="usernametype()" pattern="[^'&lt;&gt;!^#$%&()*+,-.:;=?@[\]^_`{|}~]+">
+                <input type="text" id="username" placeholder="username" onkeypress="usernametype()" title="small letters with no special charactrs and spaces" pattern="[^'&lt;&gt;!^#$%&()*+,-.:;=? @[\]^_`{|}~]+">
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <div id="usernameerror" class="errormessage"></div>
@@ -41,7 +41,7 @@
                 <div id="password2error" class="errormessage"></div>
             </div>
             <div class="detailcontainer">
-                <input type="submit" value="submit" id="submit">
+                <input type="submit" value="Submit" id="submit">
             </div>
         </form>
         
